@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #151937;
+  color: #fff;
+}
+
+.item__list {
+  padding: 20px;
+}
+
+/* .item__list .item {
+  text-align: center;
+} */
+.item__list .item img {
+  position: relative;
+  top: 0;
+  left: 20%;
+}
+
+.sub_button {
+  border: none;
+  outline: none;
+}

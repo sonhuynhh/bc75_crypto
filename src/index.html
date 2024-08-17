@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Crypto</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- slick -->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav class="w-full z-20 top-0 start-0">
+          <div
+            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 mt-6"
+          >
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <span
+                class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white"
+                >Cyber Crypto</span
+              >
+            </a>
+            <div
+              class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+            >
+              <button
+                type="button"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Get started
+              </button>
+              <button
+                data-collapse-toggle="navbar-sticky"
+                type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-sticky"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 17 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+              id="navbar-sticky"
+            >
+              <ul
+                class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-nav dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 bg-nav"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-white bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Pages</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Portfolio</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="banner">
+          <div class="container mx-auto banner__content md:flex mt-32">
+            <div class="banner__left w-3/6">
+              <div class="left__content">
+                <h1 class="text-8xl">
+                  Trsuted & Secure
+                  <span class="text-crypto">Crypto</span> Market Exchange.
+                </h1>
+                <p class="text-3xl my-10 font-light">
+                  Already have a website? Try our hosting to alive it with
+                  industry-leading load times.
+                </p>
+                <button
+                  class="bg-buttonBanner rounded-full py-4 px-10 text-white text-1xl"
+                >
+                  Start Trading
+                </button>
+              </div>
+              <div class="banner__rating">
+                <h2 class="my-7 text-7xl">A+ Rating</h2>
+                <p class="text-2xl font-light">
+                  Avg rating 4.8 makes us world most best apps.
+                </p>
+              </div>
+            </div>
+
+            <div class="banner__right w-3/6">
+              <img class="w-full" src="./images/bank (1).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="platform mt-40 mb-40">
+        <div class="container mx-auto">
+          <!--  -->
+          <div class="info__list">
+            <div class="info__text">
+              <h2 class="text-7xl text-center">
+                Trusted <span class="text-crypto">Cryptocurrency</span> Platform
+              </h2>
+              <p class="text-2xl m-5 text-center">
+                jano has a variety of features that make it the best place to
+                start trading
+              </p>
+            </div>
+            <!--  -->
+            <div class="info__button">
+              <ul class="flex justify-center">
+                <li><button class="p-5">Profilt</button></li>
+                <li><button class="p-5">Contact</button></li>
+              </ul>
+            </div>
+            <!--  -->
+            <div class="item__list p-20 grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="item p-10 bg-gray-900 text-center">
+                <img src="./images/trusted_1.png" alt="" />
+                <div class="item__title">
+                  <h2>Best Exchange Rate</h2>
+                  <p>Convert data noise intelligent for quis lorem.</p>
+                  <i class="fa fa-arrow-right mt-4 text-4xl"></i>
+                </div>
+              </div>
+              <div class="item p-10 bg-gray-900 text-center">
+                <img src="./images/trusted_1.png" alt="" />
+                <div class="item__title">
+                  <h2>Best Exchange Rate</h2>
+                  <p>Convert data noise intelligent for quis lorem.</p>
+                  <i class="fa fa-arrow-right mt-4 text-4xl"></i>
+                </div>
+              </div>
+              <div class="item p-10 bg-gray-900 text-center">
+                <img src="./images/trusted_1.png" alt="" />
+                <div class="item__title">
+                  <h2>Best Exchange Rate</h2>
+                  <p>Convert data noise intelligent for quis lorem.</p>
+                  <i class="fa fa-arrow-right mt-4 text-4xl"></i>
+                </div>
+              </div>
+              <div class="item p-10 bg-gray-900 text-center">
+                <img src="./images/trusted_1.png" alt="" />
+                <div class="item__title">
+                  <h2>Best Exchange Rate</h2>
+                  <p>Convert data noise intelligent for quis lorem.</p>
+                  <i class="fa fa-arrow-right mt-4 text-4xl"></i>
+                </div>
+              </div>
+              <div class="item p-10 bg-gray-900 text-center">
+                <img src="./images/trusted_1.png" alt="" />
+                <div class="item__title">
+                  <h2>Best Exchange Rate</h2>
+                  <p>Convert data noise intelligent for quis lorem.</p>
+                  <i class="fa fa-arrow-right mt-4 text-4xl"></i>
+                </div>
+              </div>
+              <div class="item p-10 bg-gray-900 text-center">
+                <img src="./images/trusted_1.png" alt="" />
+                <div class="item__title">
+                  <h2>Best Exchange Rate</h2>
+                  <p>Convert data noise intelligent for quis lorem.</p>
+                  <i class="fa fa-arrow-right mt-4 text-4xl"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="feedback">
+        <div class="container mx-auto">
+          <div class="feedback__text text-center">
+            <p class="mb-4">Feedback</p>
+            <h2 class="text-7xl mb-5">
+              Trsuted by <span class="text-crypto">Clients</span>
+            </h2>
+          </div>
+        </div>
+        <div class="feed_item p-6 flex">
+          <div class="item_core p-12 bg-gray-500 mr-4">
+            <img src="./images/kanban.png" alt="" />
+            <div class="text-yellow-300">
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+            </div>
+            <p class="my-8">
+              Certainly from my perspective quis been a great success with due
+              WP giving us that enterprises level assured quality
+            </p>
+            <p>Qulaity & Cost: <span>15.00</span></p>
+          </div>
+          <div class="item_core p-12 bg-gray-500 mr-4">
+            <img src="./images/kanban.png" alt="" />
+            <div class="text-yellow-300">
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+            </div>
+            <p class="my-8">
+              Certainly from my perspective quis been a great success with due
+              WP giving us that enterprises level assured quality
+            </p>
+            <p>Qulaity & Cost: <span>15.00</span></p>
+          </div>
+          <div class="item_core p-12 bg-gray-500 mr-4">
+            <img src="./images/kanban.png" alt="" />
+            <div class="text-yellow-300">
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+            </div>
+            <p class="my-8">
+              Certainly from my perspective quis been a great success with due
+              WP giving us that enterprises level assured quality
+            </p>
+            <p>Qulaity & Cost: <span>15.00</span></p>
+          </div>
+          <div class="item_core p-12 bg-gray-500 mr-4">
+            <img src="./images/kanban.png" alt="" />
+            <div class="text-yellow-300">
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+            </div>
+            <p class="my-8">
+              Certainly from my perspective quis been a great success with due
+              WP giving us that enterprises level assured quality
+            </p>
+            <p>Qulaity & Cost: <span>15.00</span></p>
+          </div>
+
+          <div class="item_core p-12 bg-gray-500 mr-4">
+            <img src="./images/kanban.png" alt="" />
+            <div class="text-yellow-300">
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+              <i class="fa fa-star mt-3"></i>
+            </div>
+            <p class="my-8">
+              Certainly from my perspective quis been a great success with due
+              WP giving us that enterprises level assured quality
+            </p>
+            <p>Qulaity & Cost: <span>15.00</span></p>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+    </main>
+    <!--  -->
+    <footer class="infomation mt-20 mb-30">
+      <div class="container mx-auto">
+        <div class="card bg-card p-20">
+          <div class="sub flex">
+            <div class="card__sub">
+              <h3 class="mb-5 text-4xl">
+                <span class="text-crypto">Jano.</span>
+              </h3>
+              <p class="mb-3 text-2xl">Join our newsletter</p>
+              <div class="py-3 px-4 bg-mail">
+                <input
+                  type="text"
+                  placeholder="Enter email"
+                  class="sub_button bg-card md:rounded-lg"
+                />
+                <button class="bg-subBut py-3 px-5 md:rounded-lg">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <div class="links mx-40">
+              <h3 class="text-3xl mb-6">Links</h3>
+              <ul>
+                <li class="mb-5"><a href="">Home</a></li>
+                <li class="mb-5"><a href="">Pricing</a></li>
+                <li class="mb-5"><a href="">About us</a></li>
+                <li class="mb-5"><a href="">Careers</a></li>
+                <li class="mb-5"><a href="">Features</a></li>
+                <li class="mb-5"><a href="">Demo the product</a></li>
+              </ul>
+            </div>
+            <div class="legal mr-40">
+              <h3 class="text-3xl mb-6">Legal</h3>
+              <ul>
+                <li class="mb-5"><a href="">Terms of use</a></li>
+                <li class="mb-5"><a href="">Terms & conditions</a></li>
+                <li class="mb-5"><a href="">Privacy policy</a></li>
+                <li class="mb-5"><a href="">Cookie policy</a></li>
+              </ul>
+            </div>
+            <div class="Products">
+              <h3 class="text-3xl mb-6">Products</h3>
+              <ul>
+                <li class="mb-5"><a href="">Take the tour</a></li>
+                <li class="mb-5"><a href="">Live chat</a></li>
+                <li class="mb-5"><a href="">Self-service</a></li>
+                <li class="mb-5"><a href="">Social</a></li>
+                <li class="mb-5"><a href="">Collaboration</a></li>
+                <li class="mb-5"><a href="">Jano Reviews</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- slick -->
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <!-- flowbite -->
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <script>
+      //   $(".item_core").slick({
+      //     slidesToShow: 3,
+      //     slidesToScroll: 1,
+      //     autoplay: true,
+      //     autoplaySpeed: 2000,
+      //   });
+    </script>
+  </body>
+</html>
